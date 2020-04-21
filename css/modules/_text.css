@@ -1,0 +1,51 @@
+.text__heading {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.text__heading--small {
+    font-size: 3rem;
+}
+
+.text__heading-m {
+    margin: 2rem;
+}
+.text__normal{
+    font-size: 1.6rem;
+}
+
+.text__normal--huge {
+    font-weight: 700;
+    font-size: 7rem;
+    padding: 0;
+}
+
+.text__normal--light{
+    font-weight: 100;
+}
+
+.text__normal--small{
+    font-size: 1.3rem;
+}
+
+.text--center {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.text-move--left {
+    position: relative;
+    left: -2rem;
+}
+
+.text--left{
+    text-align: left;
+}
+
+.text--white{
+    color: white;
+}
+
+.text--blue{
+    color: var(--dark-cyan);
+}

@@ -1,0 +1,45 @@
+.btn{
+    color: var(--primary-pink);
+    border: 2px solid var(--primary-pink);
+    font-size: 1.6rem;
+    padding: .5rem 1.5rem;
+    border-radius: 3rem;
+    transition: .3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--primary-pink);
+    color: snow;
+}
+
+.btn--hero {
+    text-align: center;
+}
+
+.btn--fill {
+    color: snow;
+    background-color: var(--primary-pink);
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+
+.btn--fill:hover {
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+
+.btn--form {
+    outline: none;
+    border: none;
+    width: 15rem;
+    padding: 1.5rem 1.6rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.btn--form:hover {
+    color: var(--primary-pink);
+    background-color: white;
+}

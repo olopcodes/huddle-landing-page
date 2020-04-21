@@ -1,0 +1,173 @@
+/* site nav */
+.site-nav {
+    padding: 1.5rem 0;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100000;
+
+}
+
+.site-nav__logo {
+    width: 15rem;
+}
+/*site nav*/
+
+
+/* hero */
+.site-hero {
+    padding: 15rem 0;
+}
+
+.site-hero__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    height: 50rem;
+    margin-bottom: 2rem;
+}
+
+/* site hero*/
+
+
+/* details */
+.details__detail{
+    text-align: center;
+    padding: 4rem 0;
+    width: 25rem;
+    margin: 0 auto; 
+}
+
+.details__icon {
+    text-align: left;
+    position: relative;
+    left: 3rem;
+}
+
+/* details */
+
+/* benefits */
+.benefits-top__wave--grow,
+.benefits-top__wave--users {
+    position: relative; 
+    top: 1rem;  
+}
+
+
+.benefits__benefit--1,
+.benefits__benefit--3 {
+    background-color: var(--pale-blue);   
+}
+
+.benefits__benefit--pad {
+    padding: 5rem 2rem;
+}
+
+/* benefits */
+
+
+
+/*getting started*/
+.getting-started {
+    padding: 5rem 0;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*getting started*/
+
+/* newsletter */
+.newsletter__wrapper {
+    padding: 2rem 0;
+    background-color: var(--dark-cyan);
+}
+
+.newsletter__img{
+    position: relative;
+    top: 1rem;
+}
+
+.newsletter__form{
+    background-color: var(--dark-cyan);
+    height: 20rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.newsletter__input{
+    outline: none;
+    border: none;
+    width: 30rem;
+    padding: 1.5rem .6rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+/* newsletter */
+
+
+/* footer */
+footer {
+    padding: 5rem 0 1.5rem;
+}
+
+.footer__logo{
+    margin-bottom: 2rem;
+}
+
+.footer__contact{
+    margin: 2rem 0;
+}
+
+.footer__phone,
+.footer__email {
+    display: flex;
+    align-items: center;
+    padding: .8rem 0;
+}
+
+.footer__phone i,
+.footer__email i {
+    position: relative;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.footer__socials{
+    margin-bottom: 2rem;
+}
+
+.footer__socials i {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+footer .attribution {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 500px) {
+    @import '../media-queries/_small-screen.css';
+}
+
+@media screen and (min-width: 800px) {
+    @import '../media-queries/_medium-screen.css';
+}
+
+@media screen and (min-width: 1280px) {
+    @import '../media-queries/_large-screen.css';
+}
+
+
+
+
+
